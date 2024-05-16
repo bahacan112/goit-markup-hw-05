@@ -153,6 +153,7 @@ img {
     max-width: 1440px;
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .ilkbaslik {
