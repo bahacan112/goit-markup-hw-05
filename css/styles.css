@@ -88,6 +88,21 @@ img {
     position: relative;
 }
 
+.nav-list::after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+}
+
+.menu:first-child {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .nav-list:hover {
     color: #404bbf;
 }
@@ -103,6 +118,11 @@ img {
     letter-spacing: 0.02em;
     color: #434455;
 
+}
+
+.adres-list:first-child {
+
+    transition: olor 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .adres-list {
