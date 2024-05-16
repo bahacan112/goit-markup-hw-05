@@ -147,10 +147,12 @@ img {
 }
 
 .sect-ilk {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpeg);
     background-color: #2e2f42;
     padding: 188px 0;
-
-
+    max-width: 1440px;
+    background-position: center;
+    background-size: cover;
 }
 
 .ilkbaslik {
@@ -181,6 +183,7 @@ img {
     height: 56px;
     border: none;
     border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .buttonilk:hover {
