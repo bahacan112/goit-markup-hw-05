@@ -172,6 +172,12 @@ img {
 
 }
 
+.simge-div {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
 .buttonilk {
     display: block;
     background-color: #4D5AE5;
