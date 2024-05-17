@@ -172,7 +172,7 @@ img {
 
 }
 
-.svg {}
+
 
 .simge-div {
     display: flex;
@@ -262,6 +262,8 @@ img {
     display: flex;
     justify-content: center;
     gap: 24px;
+    width: 40px;
+
 }
 
 .third-list {
