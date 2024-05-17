@@ -457,28 +457,29 @@ h6 {
     line-height: 1.5;
     color: var(--stil-color);
     letter-spacing: 0.02em;
+    margin-bottom: 16px;
 
 }
 
 .footer-container-main {
     display: flex;
     align-items: baseline;
-
-}
-
-footer-logo-p-container {
     margin-right: 120px;
+
 }
+
+footer-logo-p-container {}
 
 .footer-social-p {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-bottom: 16px;
     display: flex;
     gap: 16px;
     color: #FFFFFF;
+    margin-bottom: 16px;
+
 
 }
 
