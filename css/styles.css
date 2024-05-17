@@ -20,8 +20,7 @@ body {
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
-    display: flex;
-    align-items: baseline
+
 }
 
 .menu {
@@ -452,4 +451,9 @@ h6 {
     color: var(--stil-color);
     letter-spacing: 0.02em;
 
+}
+
+.footer-container {
+    display: flex;
+    align-items: baseline
 }
