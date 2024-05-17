@@ -228,6 +228,11 @@ img {
 
 }
 
+.social-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
 
 .third-list {
     display: flex;
