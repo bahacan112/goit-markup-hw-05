@@ -172,6 +172,11 @@ img {
 
 }
 
+svg {
+    width: 64px;
+    height: 64px;
+}
+
 .simge-div {
     display: flex;
     align-items: center;
