@@ -281,13 +281,11 @@ img {
 
 }
 
-.portfolio-list-item:hover {
+.portfolio-list-item:hover~.portfolio-list-item-p {
     transform: translateY(0%);
 }
 
-.portfolio-list-item-p:hover {
-    transform: translateY(0%);
-}
+
 
 .portfolio-list-item-p {
     position: absolute;
