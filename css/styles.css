@@ -475,6 +475,7 @@ footer-logo-p-container {
     display: flex;
     gap: 16px;
     color: #FFFFFF;
+    margin-bottom: 16px;
 }
 
 .footer-social-list {
@@ -508,4 +509,8 @@ footer-logo-p-container {
 .footer-social-list-item-a:active {
     background-color: #31d0aa;
     ;
+}
+
+.footer-social-list-item-svg {
+    fill: #f4f4fd;
 }
