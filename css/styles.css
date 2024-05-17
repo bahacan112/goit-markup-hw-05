@@ -20,7 +20,7 @@ body {
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
-    margin-right: 120px;
+
 
 }
 
@@ -458,5 +458,8 @@ h6 {
 
 .footer-container {
     display: flex;
-    align-items: baseline
+    align-items: baseline;
+    margin-right: 120px;
 }
+
+footer-logo-p-container {}
