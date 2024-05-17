@@ -228,6 +228,11 @@ img {
 
 }
 
+.social-list-item {
+    width: 40px;
+    height: 40px;
+}
+
 .social-list {
     display: flex;
     justify-content: center;
