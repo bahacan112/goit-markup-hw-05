@@ -485,6 +485,7 @@ footer-logo-p-container {
 
 .footer-social-list-item {
     width: 40px;
+    height: 40px;
 
 }
 
@@ -495,9 +496,16 @@ footer-logo-p-container {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 50%;
 
 }
 
 .footer-social-list-item-a:hover {
     background-color: #31d0aa;
+}
+
+.footer-social-list-item-a:focus,
+.footer-social-list-item-a:active {
+    background-color: #31d0aa;
+    ;
 }
