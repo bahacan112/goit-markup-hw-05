@@ -281,6 +281,10 @@ img {
 
 }
 
+.portfolio-list-item:hover {
+    transform: translateY(0%);
+}
+
 .portfolio-list-item-p:hover {
     transform: translateY(0%);
 }
