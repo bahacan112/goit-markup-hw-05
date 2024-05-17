@@ -488,6 +488,11 @@ footer-logo-p-container {
     width: 40px;
     height: 40px;
 
+
+}
+
+.footer-social-list-item:first-child {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-list-item-a {
