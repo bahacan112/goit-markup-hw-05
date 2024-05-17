@@ -281,7 +281,7 @@ img {
 
 }
 
-.portfolio-list-item:hover~.portfolio-list-item-p {
+.portfolio-list-item:hover .portfolio-list-item-p {
     transform: translateY(0%);
 }
 
