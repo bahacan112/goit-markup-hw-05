@@ -20,6 +20,7 @@ body {
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
+    margin-right: 120px;
 
 }
 
@@ -426,9 +427,7 @@ h6 {
     padding: 100px 0;
 }
 
-.footer-container-second {
-    margin-right: 120px;
-}
+.footer-container-second {}
 
 .footer-logo {
     font-family: "Raleway", sans-serif;
