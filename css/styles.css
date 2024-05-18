@@ -499,7 +499,7 @@ footer-logo-p-container {
 
 }
 
-.footer-social-list-item:first-child {
+.footer-social-list:first-child {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
