@@ -464,11 +464,14 @@ h6 {
 .footer-container-main {
     display: flex;
     align-items: baseline;
-    margin-right: 120px;
+
 
 }
 
-footer-logo-p-container {}
+footer-logo-p-container {
+    margin-right: 120px;
+
+}
 
 .footer-social-p {
     font-weight: 500;
