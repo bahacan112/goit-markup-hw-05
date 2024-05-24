@@ -716,6 +716,10 @@ a {
     color: #8e8f99;
 }
 
+:root {
+    --background-color-checked: #404bbf;
+}
+
 .user-privacy-span {
     width: 16px;
     height: 16px;
@@ -729,7 +733,8 @@ a {
 }
 
 .visually-hidden .user-privacy-span {
-    background-color: #404bbf;
+    background-color: var(--background-color-checked);
+
     border: none;
     fill: #F4F4FD;
 }
