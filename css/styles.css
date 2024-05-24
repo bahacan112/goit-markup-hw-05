@@ -728,7 +728,7 @@ a {
     fill: transparent;
 }
 
-#user-privacy:checked .user-privacy-span {
+.visually-hidden .user-privacy-span {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
