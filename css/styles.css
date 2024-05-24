@@ -732,7 +732,7 @@ a {
     fill: transparent;
 }
 
-#user-privacy .user-privacy-span {
+#user-privacy:checked .user-privacy-span {
     background-color: var(--background-color-checked);
 
     border: none;
