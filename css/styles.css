@@ -727,3 +727,9 @@ a {
     justify-content: center;
     fill: transparent;
 }
+
+#user-privacy:checked span {
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
+}
