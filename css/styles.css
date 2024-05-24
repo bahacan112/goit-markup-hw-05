@@ -495,13 +495,11 @@ a {
 
 .submit-form {
     display: flex;
-
-}
-
-.form-label {
     gap: 24px;
 
 }
+
+.form-label {}
 
 .form-input-email {
     width: 264px;
@@ -514,6 +512,7 @@ a {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     color: #ffffff;
+    padding-left: 16px;
 
 }
 
