@@ -692,3 +692,19 @@ a {
     border-color: #4D5AE5;
 
 }
+
+.form-checkbox-div {
+    margin-bottom: 24px;
+}
+
+.form-checkbox-div-input {}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
