@@ -610,7 +610,7 @@ a {
 
 }
 
-.modal-button:hover .modal-button-svg {
+.modal-button:focus .modal-button-svg {
 
     fill: #ffffff;
 
