@@ -742,7 +742,7 @@ a {
     fill: transparent;
 }
 
-#user-privacy[type="checkbox"]:checked .user-privacy-span {
+.user-privacy[type="checkbox"]:checked .user-privacy-span {
     background-color: var(--checked-background-color);
     border: none;
     fill: #F4F4FD;
