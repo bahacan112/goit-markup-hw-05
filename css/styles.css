@@ -724,11 +724,7 @@ a {
     color: #8e8f99;
 }
 
-:root {
-    --checked-background-color: #404bbf;
-    /* Belirlenen renk değişkeni */
 
-}
 
 .user-privacy-span {
     width: 16px;
@@ -740,6 +736,12 @@ a {
     align-items: center;
     justify-content: center;
     fill: transparent;
+}
+
+:root {
+    --checked-background-color: #404bbf;
+    /* Belirlenen renk değişkeni */
+
 }
 
 .user-privacy[type="checkbox"]:checked .user-privacy-span .user-privacy-label {
