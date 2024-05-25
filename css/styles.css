@@ -717,7 +717,9 @@ a {
 }
 
 :root {
-    --background-color-checked: #404bbf;
+    --checked-background-color: #404bbf;
+    /* Belirlenen renk değişkeni */
+
 }
 
 .user-privacy-span {
@@ -732,9 +734,8 @@ a {
     fill: transparent;
 }
 
-#user-privacy:checked .user-privacy-span {
-    background-color: var(--background-color-checked);
-
+#user-privacy[type="checkbox"]:checked .user-privacy-span {
+    background-color: var(--checked-background-color);
     border: none;
     fill: #F4F4FD;
 }
