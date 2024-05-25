@@ -660,7 +660,12 @@ a {
 
 }
 
-.user-name-input:focus-within .user-name-icon {
+.user-name-input:focus .user-name-icon {
+    fill: #4D5AE5;
+}
+
+#input-field:focus+#icon,
+#input-field:active+#icon {
     fill: #4D5AE5;
 }
 
