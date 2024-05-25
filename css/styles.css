@@ -657,6 +657,11 @@ a {
 
 .user-name-input:focus {
     border-color: #4D5AE5;
+
+}
+
+.user-name-input:focus-within .user-name-icon {
+    fill: #4D5AE5;
 }
 
 .user-name-icon {
